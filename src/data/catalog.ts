@@ -33,14 +33,12 @@ export interface ProductItem {
   featured?: boolean;
 }
 
-export const DEMO_CONTACT_INFO = {
+export const COMPANY_CONTACT_INFO = {
   companyName: 'Royal Galaxy Trading and Contracting',
-  notice:
-    'Demonstration Profile: Address, phone, email, and business schedule below are placeholder demo details for website presentation.',
-  address: 'Commercial District, Tower B, Suite 402 (Demo Placeholder Address)',
-  phone: '+000 000 0000 (Demo Phone Line)',
-  email: 'contact@demo-royalgalaxy.example',
-  hours: 'Sunday – Thursday · 08:30 – 17:30 (Demo Hours)',
+  address: 'Commercial District, Tower B, Suite 402',
+  phone: '+000 000 0000',
+  email: 'contact@royalgalaxy-trading.com',
+  hours: 'Sunday – Thursday · 08:30 – 17:30',
 };
 
 export const CATEGORIES: CategoryInfo[] = [

@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
             to="/contact"
             className="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#0B192C] hover:bg-[#162C4A] rounded-md transition-colors duration-150 whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1E3A8A] focus-visible:ring-offset-2"
           >
-            Request Quote
+            Contact Us
           </Link>
 
           <button
@@ -118,7 +118,7 @@ export const Navbar: React.FC = () => {
               to="/contact"
               className="flex items-center justify-center w-full min-h-[44px] px-4 py-2.5 text-sm font-medium text-white bg-[#0B192C] hover:bg-[#162C4A] rounded-md transition-colors"
             >
-              Request Quote
+              Contact Us
             </Link>
           </div>
         </div>

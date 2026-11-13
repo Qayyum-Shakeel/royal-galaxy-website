@@ -69,7 +69,7 @@ export const HomePage: React.FC = () => {
                 to="/contact"
                 className="inline-flex items-center justify-center px-5 py-3 text-sm font-medium text-white border border-white/25 hover:bg-white/10 rounded-md transition-colors whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
-                Request Trade Quote
+                Contact Us
               </Link>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BrandLogo } from './BrandLogo';
-import { CATEGORIES, DEMO_CONTACT_INFO } from '../data/catalog';
+import { CATEGORIES, COMPANY_CONTACT_INFO } from '../data/catalog';
 
 export const Footer: React.FC = () => {
   return (
@@ -65,14 +65,14 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Demo Contact Info */}
+          {/* Contact Info */}
           <div className="lg:col-span-3 space-y-3">
-            <h3 className="text-sm font-semibold text-white">Contact Desk</h3>
+            <h3 className="text-sm font-semibold text-white">Contact Office</h3>
             <div className="space-y-2 text-sm text-slate-300/90">
-              <p>{DEMO_CONTACT_INFO.address}</p>
-              <p>{DEMO_CONTACT_INFO.phone}</p>
-              <p>{DEMO_CONTACT_INFO.email}</p>
-              <p className="text-xs text-slate-400 pt-1">{DEMO_CONTACT_INFO.hours}</p>
+              <p>{COMPANY_CONTACT_INFO.address}</p>
+              <p>{COMPANY_CONTACT_INFO.phone}</p>
+              <p>{COMPANY_CONTACT_INFO.email}</p>
+              <p className="text-xs text-slate-400 pt-1">{COMPANY_CONTACT_INFO.hours}</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} Royal Galaxy Trading and Contracting. All rights reserved.
           </p>
           <p className="text-slate-400">
-            Frontend demonstration catalog · Contact details shown are placeholder demo data.
+            Corporate Product &amp; Contracting Showcase
           </p>
         </div>
       </div>
