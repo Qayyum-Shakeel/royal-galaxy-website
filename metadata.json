@@ -1,0 +1,6 @@
+{
+  "name": "Royal Galaxy Trading and Contracting",
+  "description": "Corporate catalog and multi-sector procurement platform for Royal Galaxy Trading and Contracting across Food & Grocery, Building Materials, Transportation, and Cleaning Supplies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
